@@ -29,11 +29,9 @@ print("Eingabe: ")
 var choice = readLine();
 
 switch choice {
-case "1": print(number_1_int + number_2_int)
-case "2": print(number_1_int - number_2_int)
-case "3": print(number_1_int / number_2_int)
-case "4": print(number_1_int * number_2_int)
+case "1": let add = number_1_int + number_2_int; print("Result: \(add)")
+case "2": let substraction = number_1_int - number_2_int; print("Result: \(substraction)")
+case "3": let division = number_1_int / number_2_int; print("Result: \(division)")
+case "4": let product = number_1_int * number_2_int; print ("Result: \(product)")
 default: print("Ungültige Eingabe")
 }
-
- 
